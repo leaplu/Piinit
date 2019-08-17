@@ -8,4 +8,4 @@ sudo sed -i 's|http://archive.raspberrypi.org|https://mirrors.ustc.edu.cn/archiv
 #Update System
 apt update
 apt upgrade -y
-apt install vim -y
+apt install vim xrdp -y
