@@ -6,6 +6,6 @@ sudo sed -i 's|http://raspbian.raspberrypi.org|https://mirrors.ustc.edu.cn/raspb
 sudo sed -i 's|http://archive.raspberrypi.org|https://mirrors.ustc.edu.cn/archive.raspberrypi.org|g' /etc/apt/sources.list.d/raspi.list
 
 #Update System
-apt update
-apt upgrade -y
-apt install vim xrdp -y
+apt update -yqq
+apt upgrade -yqq
+apt install vim xrdp -yqq
